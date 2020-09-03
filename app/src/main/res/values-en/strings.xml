@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Bisuteria</string>
+    <string name="txt_cantidad">Amount</string>
+    <string name="btn_comprar">Buy</string>
+    <string name="spn_cuero">Leather</string>
+    <string name="spn_cuerda">Rope</string>
+    <string name="spn_material">Select a Material</string>
+    <string name="spn_martillo">Hammer</string>
+    <string name="spn_ancla">Anchor</string>
+    <string name="spn_dije">Select a Pendant</string>
+    <string name="spn_oro">Gold</string>
+    <string name="spn_oro_rosa">Pink Gold</string>
+    <string name="spn_plata">Silver</string>
+    <string name="spn_niquel">Niquel</string>
+    <string name="spn_tipo">Select a Type</string>
+    <string name="spn_dollar">USD</string>
+    <string name="spn_peso">COP</string>
+    <string name="spn_moneda">Select Currency</string>
+    <string name="mesage_error">Check All Fields</string>
+</resources>

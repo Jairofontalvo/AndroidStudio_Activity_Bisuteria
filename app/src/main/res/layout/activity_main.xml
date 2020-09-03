@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Spinner
+        android:id="@+id/spnMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="40sp"
+        android:layout_marginBottom="20sp" />
+
+    <Spinner
+        android:id="@+id/spnDije"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="40sp"
+        android:layout_marginEnd="40sp"
+        android:layout_marginBottom="20sp" />
+
+    <Spinner
+        android:id="@+id/spnTipo"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="40sp"
+        android:layout_marginEnd="40sp" />
+
+    <Spinner
+        android:id="@+id/spnMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="40sp" />
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="40sp"
+        android:ems="10"
+        android:hint="@string/txt_cantidad"
+        android:inputType="number"
+        android:paddingStart="10sp"
+        android:paddingEnd="10sp"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="70sp"
+        android:background="#2196F3"
+        android:onClick="comprar"
+        android:text="@string/btn_comprar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorLink="#3F51B5" />
+
+    <TextView
+        android:id="@+id/lblTotal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40sp"
+        android:paddingLeft="20sp"
+        android:paddingTop="10sp"
+        android:paddingRight="20sp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>

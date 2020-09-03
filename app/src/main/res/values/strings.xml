@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">App Bisuteria</string>
+    <string name="txt_cantidad">Cantidad</string>
+    <string name="btn_comprar">Comprar</string>
+    <string name="spn_cuero">Cuero</string>
+    <string name="spn_cuerda">Cuerda</string>
+    <string name="spn_material">Seleccione un Material</string>
+    <string-array name="arrayMaterial">
+        <item>@string/spn_material</item>
+        <item>@string/spn_cuero</item>
+        <item>@string/spn_cuerda</item>
+    </string-array>
+    <string name="spn_martillo">Martillo</string>
+    <string name="spn_ancla">Ancla</string>
+    <string name="spn_dije">Seleccione un Dije</string>
+    <string-array name="arrayDije">
+        <item>@string/spn_dije</item>
+        <item>@string/spn_martillo</item>
+        <item>@string/spn_ancla</item>
+    </string-array>
+    <string name="spn_oro">Oro</string>
+    <string name="spn_oro_rosa">Oro Rosa</string>
+    <string name="spn_plata">Plata</string>
+    <string name="spn_niquel">Niquel</string>
+    <string name="spn_tipo">Seleccione un Tipo </string>
+    <string-array name="arrayTipo">
+        <item>@string/spn_tipo</item>
+        <item>@string/spn_oro</item>
+        <item>@string/spn_oro_rosa</item>
+        <item>@string/spn_plata</item>
+        <item>@string/spn_niquel</item>
+    </string-array>
+    <string name="spn_dollar">USD</string>
+    <string name="spn_peso">COP</string>
+    <string name="spn_moneda">Seleccione una Moneda</string>
+    <string-array name="arrayMoneda">
+        <item>@string/spn_moneda</item>
+        <item>@string/spn_dollar</item>
+        <item>@string/spn_peso</item>
+    </string-array>
+    <string name="mesage_error">Verifique Todos los Campos</string>
+</resources>
